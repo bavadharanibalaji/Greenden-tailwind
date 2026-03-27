@@ -10,8 +10,8 @@
 
 <body>
     <!--Navbar-->
-    <nav class="bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
-        <h1 class="text-3xl text-green-950 font-bold text-shadow-2xs text-shadow-sky-300" >Greenden</h1>
+    <nav class="bg-emerald-400  p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
+        <h1 class="text-3xl text-white font-bold text-shadow-2xs text-shadow-sky-300">Greenden</h1>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 md:hidden ">
             <path fill-rule="evenodd"
@@ -20,52 +20,106 @@
         </svg>
 
 
-        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+        <ul class="flex gap-5 text-white hidden md:flex">
             <li>
-                <a href="#" class="hover:underline hover:text-black">Home</a>
+                <a href="index.html" class="hover:underline hover:text-black">Home</a>
             </li>
 
             <li>
-                <a href="#" class="hover:underline hover:text-black">products</a>
+                <a href="product.html" class="hover:underline hover:text-black">products</a>
             </li>
 
             <li>
-                <a href="#" class="hover:underline hover:text-black">Contact</a>
+                <a href="contact.html" class="hover:underline hover:text-black">Contact</a>
             </li>
         </ul>
     </nav>
 
 
 
-    <section class="bg-white dark:bg-gray-900">
-  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
-      <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-      <form action="#" class="space-y-8">
-          <div>
-              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
-          </div>
-          <div>
-              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-              <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
-          </div>
-          <div class="sm:col-span-2">
-              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-          </div>
-          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
-      </form>
-  </div>
-</section>
+    <section class="bg-emerald-200 dark:bg-gray-900">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us
+            </h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical
+                issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
+            </p>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                        email</label>
+                    <input type="email" id="email"
+                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                        placeholder="name@flowbite.com" required>
+                </div>
+                <div>
+                    <label for="subject"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                    <input type="text" id="subject"
+                        class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                        placeholder="Let us know how we can help you" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
+                        message</label>
+                    <textarea id="message" rows="6"
+                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                        placeholder="Leave a comment..."></textarea>
+                </div>
+                <button
+                    class="bg-white text-black font-bold p-3 w-50 ml-60 border border-black  rounded-full hover:bg-emerald-500">Submit</button>
+            </form>
+        </div>
+    </section>
 
-    <footer class="bg-green-200 ">
-    <div class="m-5 p-3 ">
-    <h1 class="text-3xl text-green-950 font-bold text-shadow-2xs text-shadow-sky-300">Greenden</h1>
-    <p class="mt-5">Explore and Buy our wide collection of Plants!</p>
-    <p>@copy 2021 <i>Greenday.com</i></p>
-    </div>
-</footer>
+    <footer class="bg-emerald-400 text-white pt-10 pb-6">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
+
+
+            <div>
+                <h2 class="text-3xl font-bold mb-3">Greenden</h2>
+                <p class="text-m text-emerald-100">
+                    "Bringing nature closer to your home with fresh and beautiful plants".
+                </p>
+            </div>
+
+
+            <div>
+                <h3 class="font-bold mb-3">Quick Links</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html" class="hover:text-lime-300">Home</a></li>
+                    <li><a href="product.html" class="hover:text-lime-300">Products</a></li>
+                    <li><a href="contact.html" class="hover:text-lime-300">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3 class="font-bold mb-3">Contact</h3>
+                <p class="text-m">📍Chennai, India</p>
+                <p class="text-m">📞+91 98765 43210</p>
+                <p class="text-m">✉ greenden@gmail.com</p>
+            </div>
+
+
+            <div>
+                <h3 class="font-bold mb-3">Subscribe</h3>
+                <p class="text-sm mb-3">Get updates on new plants 🌱</p>
+                <input type="email" placeholder="Enter your email"
+                    class="w-full p-2 border border-white rounded text-white" />
+                <button class="mt-3 bg-lime-400 text-emerald-900 px-4 py-2 rounded hover:bg-lime-300 transition">
+                    Subscribe
+                </button>
+            </div>
+
+        </div>
+
+
+        <div class="text-center text-sm text-white mt-8">
+            © 2026 Greenden. All rights reserved.
+        </div>
+    </footer>
 
 </body>
+
 </html>
