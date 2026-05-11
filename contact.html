@@ -13,11 +13,33 @@
     <nav class="bg-emerald-400  p-3 flex items-center justify-between shadow-xl sticky top-0 z-10 ">
         <h1 class="text-3xl text-white font-bold text-shadow-2xs text-shadow-sky-300">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 md:hidden ">
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 md:hidden ">
             <path fill-rule="evenodd"
                 d="M2 3.75A.75.75 0 0 1 2.75 3h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75Zm0 4.167a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 4.166a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 4.167a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
                 clip-rule="evenodd" />
         </svg>
+
+
+         <!--Side navbar-->
+        <div id="sidenav" class="bg-emerald-500 fixed z-20 top-0 transition-all duration-1000 " style="width: 50%; height: 100vh; right: -50%; ">
+            <div class="text-right p-5 ">
+                    <p class="inline cursor-pointer" id="close-nav">X</p>
+
+            </div>
+            <ul class="flex flex-col gap-10 text-white items-center">
+                <li>
+                    <a href="index.html" class="hover:underline hover:text-black">Home</a>
+                </li>
+
+                <li>
+                    <a href="product.html" class="hover:underline hover:text-black">products</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="hover:underline hover:text-black">Contact</a>
+                </li>
+            </ul>
+        </div>
 
 
         <ul class="flex gap-5 text-white hidden md:flex">
@@ -71,6 +93,8 @@
             </form>
         </div>
     </section>
+    <script src="script.js"></script>
+     </body>
 
     <footer class="bg-emerald-400 text-white pt-10 pb-6">
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
@@ -120,6 +144,6 @@
         </div>
     </footer>
 
-</body>
+
 
 </html>
